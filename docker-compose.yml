@@ -1,7 +1,7 @@
 version: "2"
 services:
   fulfillment:
-    image: passy/tube-bot-fulfillment:v0.1.0.0
+    image: passy/tube-bot-fulfillment:v0.1.2
     restart: unless-stopped
     volumes:
       - ./config:/app/config
