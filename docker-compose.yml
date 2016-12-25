@@ -4,6 +4,6 @@ services:
     image: passy/tube-bot-fulfillment:v0.1.2
     restart: unless-stopped
     volumes:
-      - ./config:/app/config
+      - ./config:/srv/config
     ports:
       - "127.0.0.1:8001:8001"
